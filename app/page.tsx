@@ -1,5 +1,7 @@
 import React from 'react'
 import CompanionsCard from '@/components/companionsCard'
+import Companionlist from '@/components/campanionlist'
+import {recentSessions as companionList} from '@/constants/index'
 const Page = () => {
   return (
     <main className='bg-background min-h-screen w-full'>
@@ -32,6 +34,11 @@ const Page = () => {
         />
       </section>
 
+      <Companionlist 
+        titre="Recent Sessions"
+        companions={companionList}
+        className="lg:w-2/3 "
+      />
 
     </main>
   )

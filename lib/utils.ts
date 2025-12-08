@@ -1,6 +1,10 @@
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
-
+import {subjectsColors} from "@/constants/index"
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
+}
+
+export function getSubjectColor(subject: string) {
+  return subjectsColors[subject as keyof typeof subjectsColors] || "#000000"; // Default color if subject not found
 }

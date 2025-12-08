@@ -3,7 +3,7 @@ import Image from "next/image"
 import NavItems from "./navItmes"
 const Navber = () => {
   return (
-    <nav className="navbar border-b border-b-violet-200">
+    <section className="navbar border-b border-b-violet-200">
         <Link href="/">
           <div className="flex items-center gap-2.5 cursor-pointer">
             <Image
@@ -17,7 +17,7 @@ const Navber = () => {
         <div className="flex items-center gap-8">
           <NavItems />
         </div>
-    </nav>
+    </section>
   )
 }
 
