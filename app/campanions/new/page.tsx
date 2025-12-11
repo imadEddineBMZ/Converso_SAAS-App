@@ -1,9 +1,9 @@
 import React from 'react'
-
-const newCampanion = () => {
+import NewCompanionForm from '@/components/CompanionForm'
+const NewCompanions = () => {
   return (
-    <div>newCampanion</div>
+    <NewCompanionForm />
   )
 }
 
-export default newCampanion
+export default NewCompanions
