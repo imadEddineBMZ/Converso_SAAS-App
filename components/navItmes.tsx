@@ -5,8 +5,7 @@ import { cn } from '@/lib/utils'
 const navItems =[
     {label :'Home', path: '/'},
     {label :'Campanions', path: '/campanions'},
-    {label :'My Journey', path: '/my-journey'},
-    {label :'Sign In', path: '/sign-in'},  
+    {label :'My Journey', path: '/my-journey'},  
 
 ]
 
