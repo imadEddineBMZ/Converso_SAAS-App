@@ -29,7 +29,7 @@ const Cta = () => {
                 height={14}
             
             />
-            <Link href="/campanions/new">
+            <Link href="/converso/campanions/new">
                 <p>Build New Companion</p>
             </Link>
         </Button>
